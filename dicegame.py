@@ -32,7 +32,7 @@ def player_2():
 while game == 1:
     while turn == 1:
         if player_1() == 2:
-            score2 = 0
+            score1 = 0
             game = 2
         score1 = score1 + player_1()
         if score1 > 100:
